@@ -68,7 +68,7 @@ const client = new Client({
   ],
 });
 
-const db = new Database('links.db');
+const db = new Database('/data/links.db');
 
 db.prepare(`
   CREATE TABLE IF NOT EXISTS steam_links (
